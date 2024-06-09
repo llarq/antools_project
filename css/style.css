@@ -1,0 +1,30 @@
+:root {
+    --main-background-color: #1E252B;
+    --main-text-color: #FFFFFF;
+    --main-hover-color: #FF6E30;
+    --description-text-size: 18px;
+    --main-text-size: 16px;
+    --text-size: 14px;
+    --title-size: 50px;
+    --main-title-size: 48px;
+}
+
+body {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+.container {
+    width: 1254px;
+    padding: 0 15px;
+    outline: 2px dashed red;
+    margin: 0 auto;
+}
+.header-button {
+    border-radius: 8px;
+    /* width: 118px;
+    height: 48px; */
+}
+.header-button:hover {
+    background-color: var(--main-hover-color);
+    color: #FFFFFF;
+}
