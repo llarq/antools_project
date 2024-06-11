@@ -21,10 +21,119 @@ body {
 }
 .header-button {
     border-radius: 8px;
-    /* width: 118px;
-    height: 48px; */
+    width: 118px;
+    height: 48px;
+    background-color: transparent;
+    color: var(--main-text-color);
+    border: transparent;
 }
 .header-button:hover {
     background-color: var(--main-hover-color);
     color: #FFFFFF;
 }
+.flex {
+    display: flex;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: rgba(255, 255, 255, 0.55);
+}
+header {
+    margin-bottom: 58px;
+    margin-top: ;
+}
+.header-list {
+    justify-content: center;
+    gap: 40px;
+    padding-left: 257px;
+}
+.header-item {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+}
+.antools-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+h1 {
+    font-weight: 500;
+    font-size: var(--title-size);
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.9);
+}
+.search-section {
+    margin-left: 111px;
+}
+.dot {
+    color: var(--main-hover-color);
+}
+.search-description {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.search-form {
+    background-color: #283036;
+    border-radius: 15px;
+    width: 497px;
+}
+.search {
+    background-color: #283036;
+    width: 227px;
+    height: 24px;
+}
+.search-button {
+    background-color: #FF6E30;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 0;
+    width: 130px;
+    height: 48px;
+    padding: 12px 36px;
+}
+.main-social-network-list {
+    display: flex;
+    margin-top: 110px;
+}
+
+.popular-tools-section {
+    padding-top: 200px;
+    padding-left: 108px;
+}
+.main-popular-tools-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 25px;
+}
+.main-popular-tools-description {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+}
+.popular-tools-list {
+    display: flex;
+    padding-top: 90px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.popular-tools-item {
+    flex-basis: calc((100% - 48px)/3);
+    
+}
+
+/* border-radius: 15px; */
+/* background-image: linear-gradient(to right, rgba(40, 48, 54, 0.6), rgba(40, 48, 54, 0.6)), radial-gradient(circle at top right, rgba(255, 110, 48, 0.6) 1%, transparent 20%); */
