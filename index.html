@@ -14,10 +14,12 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header-nav">
-          <img src="images/main-pictures/antools.svg" alt="antools" />
-          <a href="/index.html">antools</a>
-          <ul class="header-list">
+        <nav class="header-nav flex">
+          <div class="header-logo">
+          <img src="images/main-pictures/antools.svg" alt="antools" class="antools-logo"/>
+          <a href="/index.html" class="antools-title">antools</a>
+          </div>
+          <ul class="header-list flex">
             <li class="header-item">
               <a href="/index.html">Home</a>
             </li>
@@ -47,13 +49,14 @@
         <section class="search-section">
           <h1 class="main-search-title">
             Awesome tools for <br />
-            Designer & Developer<span>.</span>
+            Designer & Developer<span class="dot">.</span>
           </h1>
           <p class="search-description">
             Antool is a web collection of information on paid or <br />
             free Design and Development tools
           </p>
           <form class="search-form">
+            <img src="./images/main-pictures/search.svg" alt="search" class="search-image">
             <input
               type="text"
               placeholder="find more than 430+ tools..."
@@ -166,7 +169,7 @@
                 <img
                   src="images/main-pictures/vsc.svg"
                   alt="Visual Studio Code"
-                  class="popular-tools-image"
+                  class="popular-tools-image" 
                 />
               </div>
               <div class="popular-tools-info">
