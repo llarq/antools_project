@@ -13,9 +13,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container flex">
         <nav class="header-nav flex">
-          <div class="header-logo">
+          <div class="header-logo flex">
           <img src="images/main-pictures/antools.svg" alt="antools" class="antools-logo"/>
           <a href="/index.html" class="antools-title">antools</a>
           </div>
@@ -34,7 +34,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-list">
+        <ul class="header-list-buttons flex">
           <li class="header-item">
             <button class="header-button">Login</button>
           </li>
@@ -44,9 +44,9 @@
         </ul>
       </div>
     </header>
-    <main>
-      <div class="container">
+    <main> 
         <section class="search-section">
+        <div class="container">
           <h1 class="main-search-title">
             Awesome tools for <br />
             Designer & Developer<span class="dot">.</span>
@@ -76,9 +76,10 @@
                 <img src="images/main-pictures/twitter.svg" alt="twitter" />
               </li>
             </ul>
-          </div>
+        </div>
         </section>
         <section class="popular-tools-section">
+        <div class="container">
           <h2 class="main-popular-tools-title">Most Popular Tools</h2>
           <p class="main-popular-tools-description">
             Tools for the best Designers and Developers <br />
@@ -93,10 +94,10 @@
                   alt="figma"
                   class="popular-tools-image"
                 />
-              </div>
-              <div class="popular-tools-info">
-                <h3 class="popular-tools-title">FIGMA</h3>
-                <p class="popular-tools-price">Free</p>
+                <div class="popular-tools-info">
+                  <h3 class="popular-tools-title">FIGMA</h3>
+                  <p class="popular-tools-price">Free</p>
+                </div>
               </div>
               <p class="popular-tools-description">
                 Lorem ipsum dolor sit amet, consectetur <br />
@@ -115,7 +116,7 @@
                     <img
                       src="images/main-pictures/addfolder.svg"
                       alt="add"
-                      class="addtofolder"
+                      class="addfolder-popular-tools"
                     />
                   </li>
                 </ul>
@@ -125,17 +126,17 @@
               </div>
             </li>
             <!-- Sketch -->
-            <li>
+            <li class="popular-tools-item">
               <div class="popular-tools-logo">
                 <img
                   src="images/main-pictures/sketch.svg"
                   alt="sketch"
                   class="popular-tools-image"
                 />
-              </div>
-              <div class="popular-tools-info">
-                <h3 class="popular-tools-title">Sketch</h3>
-                <p class="popular-tools-price">Trial & Paid</p>
+                <div class="popular-tools-info">
+                  <h3 class="popular-tools-title">Sketch</h3>
+                  <p class="popular-tools-price">Trial & Paid</p>
+                </div>
               </div>
               <p class="popular-tools-description">
                 Lorem ipsum dolor sit amet, consectetur <br />
@@ -154,7 +155,7 @@
                     <img
                       src="images/main-pictures/addfolder.svg"
                       alt="add"
-                      class="addfolder"
+                      class="addfolder-popular-tools"
                     />
                   </li>
                 </ul>
@@ -171,10 +172,10 @@
                   alt="Visual Studio Code"
                   class="popular-tools-image" 
                 />
-              </div>
-              <div class="popular-tools-info">
-                <h3 class="popular-tools-title">Visual Studio Code</h3>
-                <p class="popular-tools-price">Free</p>
+                <div class="popular-tools-info">
+                  <h3 class="popular-tools-title">Visual Studio Code</h3>
+                  <p class="popular-tools-price">Free</p>
+                </div>
               </div>
               <p class="popular-tools-description">
                 Lorem ipsum dolor sit amet, consectetur <br />
@@ -193,7 +194,7 @@
                     <img
                       src="images/main-pictures/addfolder.svg"
                       alt="add"
-                      class="addfolder"
+                      class="addfolder-popular-tools"
                     />
                   </li>
                 </ul>
@@ -210,10 +211,10 @@
                   alt="Notion"
                   class="popular-tools-image"
                 />
-              </div>
-              <div class="popular-tools-info">
-                <h3 class="popular-tools-title">Notion</h3>
-                <p class="popular-tools-price">Free & Paid</p>
+                <div class="popular-tools-info">
+                  <h3 class="popular-tools-title">Notion</h3>
+                  <p class="popular-tools-price">Free & Paid</p>
+                </div>
               </div>
               <p class="popular-tools-description">
                 Lorem ipsum dolor sit amet, consectetur <br />
@@ -232,12 +233,12 @@
                     <img
                       src="images/main-pictures/addfolder.svg"
                       alt="add"
-                      class="addfolder"
+                      class="addfolder-popular-tools"
                     />
                   </li>
                 </ul>
+                <button type="submit" class="popular-tools-button">Visit</button>
               </div>
-              <button type="submit" class="popular-tools-button">Visit</button>
             </li>
             <!-- Slack -->
             <li class="popular-tools-item">
@@ -247,10 +248,10 @@
                   alt="slack"
                   class="popular-tools-image"
                 />
-              </div>
-              <div class="popular-tools-info">
-                <h3 class="popular-tools-title">Slack</h3>
-                <p class="popular-tools-price">Free & Paid</p>
+                <div class="popular-tools-info">
+                  <h3 class="popular-tools-title">Slack</h3>
+                  <p class="popular-tools-price">Free & Paid</p>
+                </div>
               </div>
               <p class="popular-tools-description">
                 Lorem ipsum dolor sit amet, consectetur <br />
@@ -269,7 +270,7 @@
                     <img
                       src="images/main-pictures/addfolder.svg"
                       alt="add"
-                      class="addfolder"
+                      class="addfolder-popular-tools"
                     />
                   </li>
                 </ul>
@@ -286,10 +287,10 @@
                   alt="invision"
                   class="popular-tools-image"
                 />
-              </div>
-              <div class="popular-tools-info">
-                <h3 class="popular-tools-title">Invision</h3>
-                <p class="popular-tools-price">Free & Paid</p>
+                <div class="popular-tools-info">
+                  <h3 class="popular-tools-title">Invision</h3>
+                  <p class="popular-tools-price">Free & Paid</p>
+                </div>
               </div>
               <p class="popular-tools-description">
                 Lorem ipsum dolor sit amet, consectetur <br />
@@ -308,7 +309,7 @@
                     <img
                       src="images/main-pictures/addfolder.svg"
                       alt="add"
-                      class="addfolder"
+                      class="addfolder-popular-tools"
                     />
                   </li>
                 </ul>
@@ -321,33 +322,49 @@
           <button type="submit" class="main-popular-tools-button">
             Load more
           </button>
+        </div>
         </section>
         <section class="brends-section">
+        <div class="container">
+        <div class="brends-display">
           <h4 class="brends-title">Trusted more than 150+ brand</h4>
-          <img
+          <ul class="brends-list">
+          <li class="brend-list-item">
+            <img
             src="images/main-pictures/microsoft.svg"
             alt="Microsoft"
             class="brands-image"
-          />
-          <img
+            />
+          </li>
+          <li class="brend-list-item">
+            <img
             src="images/main-pictures/google.svg"
             alt="Google"
             class="brands-image"
           />
-          <img
+          </li>
+          <li class="brend-list-item">
+            <img
             src="images/main-pictures/logo_slack.svg"
             alt="slack"
             class="brands-image"
-          />
-          <img
+            />
+          </li>
+          <li class="brend-list-item">
+            <img
             src="images/main-pictures/wordpress.svg"
             alt="WordPress"
             class="brands-image"
-          />
+            />
+          </li>
+        </ul>
+        </div>
+        </div>
         </section>
         <section class="newcomer-tools-section">
+        <div class="container">
           <div class="main-newcomer-tools-info">
-            <h5 class="main-newcomer-tools-title">Newcomer Tools</h5>
+            <h2 class="main-newcomer-tools-title">Newcomer Tools</h2>
             <p class="main-newcomer-tools-description">
               Wow! see the latest update of the most <br />
               recommended tools from reliable designers <br />
@@ -367,10 +384,10 @@
                     alt="Zeplin"
                     class="newcomer-tools-image"
                   />
-                </div>
-                <div class="newcomer-tools-info">
-                  <h3 class="newcomer-tools-title">Zeplin</h3>
-                  <p class="newcomer-tools-price">Free & Paid</p>
+                  <div class="newcomer-tools-info">
+                    <h3 class="newcomer-tools-title">Zeplin</h3>
+                    <p class="newcomer-tools-price">Free & Paid</p>
+                  </div>
                 </div>
                 <p class="newcomer-tools-description">
                   Lorem ipsum dolor sit amet, <br />
@@ -389,7 +406,7 @@
                       <img
                         src="images/main-pictures/addfolder.svg"
                         alt="add"
-                        class="addfolder"
+                        class="addfolder-newcomer-tools"
                       />
                     </li>
                   </ul>
@@ -406,10 +423,10 @@
                     alt="PHPStorm"
                     class="newcomer-tools-image"
                   />
-                </div>
-                <div class="newcomer-tools-info">
-                  <h3 class="newcomer-tools-title">PHPStorm</h3>
-                  <p class="newcomer-tools-price">Free</p>
+                  <div class="newcomer-tools-info">
+                    <h3 class="newcomer-tools-title">PHPStorm</h3>
+                    <p class="newcomer-tools-price">Free</p>
+                  </div>
                 </div>
                 <p class="newcomer-tools-description">
                   Lorem ipsum dolor sit amet, <br />
@@ -428,7 +445,7 @@
                       <img
                         src="images/main-pictures/addfolder.svg"
                         alt="add"
-                        class="addfolder"
+                        class="addfolder-newcomer-tools"
                       />
                     </li>
                   </ul>
@@ -438,17 +455,17 @@
                 </div>
               </li>
               <!-- ToolBox -->
-              <li class="newcomer-tools-list">
+              <li class="newcomer-tools-item">
                 <div class="newcomer-tools-logo">
                   <img
                     src="images/main-pictures/toolbox.svg"
                     alt="ToolBox"
                     class="newcomer-tools-image"
                   />
-                </div>
-                <div class="newcomer-tools-info">
-                  <h3 class="newcomer-tools-title">ToolBox</h3>
-                  <p class="newcomer-tools-price">Free</p>
+                  <div class="newcomer-tools-info">
+                    <h3 class="newcomer-tools-title">ToolBox</h3>
+                    <p class="newcomer-tools-price">Free</p>
+                  </div>
                 </div>
                 <p class="newcomer-tools-description">
                   Lorem ipsum dolor sit amet, <br />
@@ -467,11 +484,11 @@
                       <img
                         src="images/main-pictures/addfolder.svg"
                         alt="add"
-                        class="addfolder"
+                        class="addfolder-newcomer-tools"
                       />
                     </li>
                   </ul>
-                  <button type="submit">Visit</button>
+                  <button type="submit" class="newcomer-tools-button">Visit</button>
                 </div>
               </li>
               <!-- Procreate -->
@@ -482,10 +499,10 @@
                     alt="Procreate"
                     class="newcomer-tools-image"
                   />
-                </div>
-                <div class="newcomer-tools-info">
-                  <h3 class="newcomer-tools-title">Procreate</h3>
-                  <p class="newcomer-tools-price">Paid</p>
+                  <div class="newcomer-tools-info">
+                    <h3 class="newcomer-tools-title">Procreate</h3>
+                    <p class="newcomer-tools-price">Paid</p>
+                  </div>
                 </div>
                 <p class="newcomer-tools-description">
                   Lorem ipsum dolor sit amet, <br />
@@ -504,7 +521,7 @@
                       <img
                         src="images/main-pictures/addfolder.svg"
                         alt="add"
-                        class="addfolder"
+                        class="addfolder-newcomer-tools"
                       />
                     </li>
                   </ul>
@@ -515,29 +532,32 @@
               </li>
             </ul>
           </div>
+        </div>
         </section>
         <section class="antools-member-section">
+      <div class="container">
           <div class="antools-member">
             <img src="" alt="Ronald Richard" class="antools-member-image" />
-            <h6 class="antools-member-title">Ronald Richard</h6>
-            <p class="antools-member-descriptions">Product Maneger</p>
+            <!-- <h6 class="antools-member-title">Ronald Richard</h6>
+            <p class="antools-member-descriptions">Product Maneger</p> -->
           </div>
           <div class="antools-member-skills">
             <p class="antools-member-skills-description">
-              Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
-              reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do
-              nulla velit labore occaecat do deserunt Lorem magna officia
-              incididunt consectetur amet. Sunt consectetur veniam minim ex
-              commodo sint non. Occaecat aute officia excepteur non laboris id
+              Incididunt cillum do sint sint enim ullamco id deserunt mollit <br> qui
+              reprehenderit do. Velit ex tempor cillum ad sint occaecat. <br> Do
+              nulla velit labore occaecat do deserunt Lorem magna <br> officia
+              incididunt consectetur amet. Sunt consectetur veniam <br> minim ex
+              commodo sint non. Occaecat aute officia excepteur <br> non laboris id
               qui ad.
             </p>
           </div>
           <img src="" alt="-" class="antools-member-slider" />
         </section>
         <section class="join-us-section">
+        <div class="container">
           <h2 class="join-us-title">Become a contributor?</h2>
           <p class="join-us-description">
-            Join us and get tips & tricks to become a great Designer and
+            Join us and get tips & tricks to become a great <br> Designer and
             Developer
           </p>
           <form class="main-join-us-email">
@@ -549,6 +569,7 @@
             />
             <button type="submit" class="join-us-button">Join Us</button>
           </form>
+        </div>
         </section>
       </div>
     </main>
