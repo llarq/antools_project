@@ -312,9 +312,30 @@ h1 {
 }
 .newcomer-tools-title {
   padding-bottom: 3px;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.78);
+}
+.newcomer-tools-item:hover .newcomer-tools-title {
+  color: rgba(255, 255, 255, 0.9);
+}
+.newcomer-tools-price {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255, 165, 55, 0.55);
+}
+.newcomer-tools-item:hover .newcomer-tools-price {
+  color: #ffa537;
 }
 .newcomer-tools-description {
   padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 214%;
+  color: rgba(255, 255, 255, 0.55);
+}
+.newcomer-tools-item:hover .newcomer-tools-description {
+  color: rgba(255, 255, 255, 0.78);
 }
 .newcomer-tools-item {
   flex-basis: calc((100% - 24px) / 2);
