@@ -63,6 +63,7 @@ header {
   font-size: 22px;
   color: rgba(255, 255, 255, 0.9);
   margin-right: 257px;
+  display: flex;
 }
 .antools-logo {
     margin-right: 21px;
@@ -73,6 +74,16 @@ h1 {
   font-size: var(--title-size);
   line-height: 140%;
   color: rgba(255, 255, 255, 0.9);
+}
+
+.search-section {
+  width: 1440px;
+  padding-top: 46px;
+  background-image: url(/images/main-pictures/Illustration.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .dot {
@@ -240,7 +251,9 @@ h1 {
   padding: 55px 82px;
   border-radius: 25px;
   backdrop-filter: blur(50px);
-  background: rgba(44, 53, 61, 0.2);
+  background-image: linear-gradient(to right, rgba(44, 53, 61, 0.2),
+   rgba(44, 53, 61, 0.2)), radial-gradient(circle at top left,
+   rgba(255, 72, 66, 40%) 1%, transparent 9%);
 }
 .brends-title {
   font-family: var(--font-family);
@@ -281,12 +294,14 @@ h1 {
   padding: 15px 40px;
 }
 .newcomer-tools-catalog {
-  width: 600px;
+  display: flex;
 }
 .newcomer-tools-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  width: 600px;
+  margin-left: auto;
 }
 .newcomer-tools-logo {
   display: flex;
@@ -302,7 +317,7 @@ h1 {
   padding-bottom: 30px;
 }
 .newcomer-tools-item {
-  flex-basis: calc((100%-24px)/2);
+  flex-basis: calc((100% - 24px) / 2);
   padding: 28px 22px;
 }
 .newcomer-tools-item:hover {
@@ -372,6 +387,8 @@ h1 {
   width: 549px;
   padding: 8px 13px 8px 24px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .join-us-email {
   font-weight: 400;
@@ -387,5 +404,83 @@ h1 {
   color: var(--main-text-color);
   border: none;
   padding: 12px 36px;
-  margin-left: 260px;
+  margin-left: auto;
+}
+
+footer {
+  margin-top: 240px;
+  border-top: 1px solid rgb(255, 255, 255, 15%);
+}
+
+.footer-contacts-list {
+  display: flex;
+}
+.footer-logo-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+}
+.footer-image {
+  margin-right: 12px;
+}
+.footer-info-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  padding-top: 25px;
+}
+.footer-info-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 179%;
+  color: rgba(255, 255, 255, 0.55);
+  padding-top: 21px;
+}
+.main-footer-info {
+  display: block;
+  padding-right: 156px;
+}
+.footer-list {
+  padding-top: 70px;
+  padding-bottom: 98px;
+  display: flex;
+}
+.footer-contacts-list {
+  gap: 115px;
+}
+.footer-contacts-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-adress {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.contact-us {
+  margin-bottom: 20px;
+}
+.footer-street {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-contact-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.design {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.about-us {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.our-partners {
+  margin-bottom: 10px;
 }
