@@ -135,7 +135,7 @@ h1 {
   line-height: 130%;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 .main-popular-tools-description {
   font-family: var(--font-family);
@@ -147,7 +147,7 @@ h1 {
 }
 .popular-tools-list {
   display: flex;
-  padding-top: 110px;
+  margin-top: 110px;
   gap: 24px;
   flex-wrap: wrap;
 }
@@ -373,16 +373,54 @@ h1 {
 .antools-member-section {
   padding-top: 200px;
 }
+
 .antools-member-skills-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 214%;
   letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 0.78);
+  margin-left: 57px;
+  margin-right: 108px;
+}
+.antools-member-image {
+  margin-left: 107px;
+}
+.antools-member-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.button-chevron-left {
+  background-color: inherit;
+  border: none;
+}
+.button-chevron-right {
+  background-color: inherit;
+  border: none;
+}
+.section_with_men-button-list {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+.section_with_men-button-list-item-gray{
+  border-radius: 4px;
+  width: 44px;
+  height: 6px;
+  background-color: #283036;
+}
+.section_with_men-button-list-item{
+  border-radius: 4px;
+  width: 44px;
+  height: 6px;
+  background-color: var(--main-hover-color);
 }
 
 .join-us-section {
   padding-top: 200px;
+  padding-bottom: 240px;
 }
 .join-us-title {
   font-weight: 500;
@@ -429,7 +467,6 @@ h1 {
 }
 
 footer {
-  margin-top: 240px;
   border-top: 1px solid rgb(255, 255, 255, 15%);
 }
 
